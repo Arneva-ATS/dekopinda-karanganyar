@@ -285,7 +285,7 @@
 @endsection
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        fetch('https://cms.rkicoop.co.id/api.php?act=gallery&id_dekopin=66')
+        fetch('https://cms.rkicoop.co.id/api.php?act=gallery&id_dekopin=67')
             .then(response => response.json())
             .then(data => {
                 const galleryElement = document.getElementById('galeri');
